@@ -42,13 +42,13 @@ object Deps {
     const val kotlinVersion = "1.7.21"
     const val kotlinGradlePlugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
 
-    private const val sqlDelightGradleVersion = "1.5.3"
+    private const val sqlDelightGradleVersion = "1.5.5"
     const val sqlDelightGradlePlugin = "com.squareup.sqldelight:gradle-plugin:$sqlDelightGradleVersion"
 
     const val hiltGradlePlugin = "com.google.dagger:hilt-android-gradle-plugin:$hiltVersion"
 
     // SQLDELIGHT
-    private const val sqlDelightVersion = "1.5.4"
+    private const val sqlDelightVersion = "1.5.5"
     const val sqlDelightRuntime = "com.squareup.sqldelight:runtime:$sqlDelightVersion"
     const val sqlDelightAndroidDriver = "com.squareup.sqldelight:android-driver:$sqlDelightVersion"
     const val sqlDelightNativeDriver = "com.squareup.sqldelight:native-driver:$sqlDelightVersion"

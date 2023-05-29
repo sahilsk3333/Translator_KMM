@@ -63,6 +63,7 @@ kotlin {
             dependencies {
                 implementation(Deps.ktorIOS)
                 implementation(Deps.sqlDelightNativeDriver)
+                //
             }
         }
     }
@@ -79,6 +80,5 @@ android {
 sqldelight {
     database("TranslateDatabase") {
         packageName = "me.iamsahil.translator_kmm.database"
-        sourceFolders = listOf("sqldelight")
     }
 }
