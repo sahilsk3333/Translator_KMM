@@ -77,6 +77,7 @@ android {
     }
 }
 
+
 sqldelight {
     database("TranslateDatabase") {
         packageName = "me.iamsahil.translator_kmm.database"
