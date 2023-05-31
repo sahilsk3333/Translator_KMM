@@ -7,8 +7,8 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import me.iamsahil.translator_kmm.android.translate.TranslateScreen
 import me.iamsahil.translator_kmm.android.translate.presentation.AndroidTranslateViewModel
+import me.iamsahil.translator_kmm.android.translate.presentation.TranslateScreen
 
 @Composable
 fun TranslateRoot() {
